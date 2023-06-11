@@ -5,6 +5,7 @@ import java.util.List;
 
 import StudentDomen.PersonComparator;
 import StudentDomen.Teacher;
+
 /**
  * Сервис Уч
  */
@@ -23,10 +24,12 @@ public class TeacherService implements iUserService<Teacher> {
     }
 
     @Override
-    public void create(String lastName, String firstName, int age) {
-        Teacher ter = new Teacher(firstName, lastName, age, cnt++, "");
+    public void create(String firstName, String secondName, int age) {
+        Teacher ter = new Teacher(firstName, secondName, age, cnt++,"");
         teachers.add(ter);
     }
+
+    
 
     /**
      * сортировка Студ по ФИ
