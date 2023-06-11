@@ -38,7 +38,7 @@ public class App {
         System.out.println("-----------------------------");
 
         Collections.sort(team.getTeams());
-        for(StudentGroup studentGroup : team){
+        for (StudentGroup studentGroup : team) {
             System.out.println(studentGroup);
         }
 

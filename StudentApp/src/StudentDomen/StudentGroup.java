@@ -80,7 +80,7 @@ public class StudentGroup implements Iterable<Student>,Comparable<StudentGroup> 
     public String toString() {
         return "StudentGroup{" +
                 "group = " + group +
-                ", idGroup = " + groupid +
+                ", idGroup = " + groupid +'\n'+
                 '}';
     }
 }
